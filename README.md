@@ -1,5 +1,5 @@
 # Roverette
-A small robot or "rover" with some sensors, WiFi, and a small speaker.
+A small robot or "rover" with some sensors, and WiFi.
 
 
 View this project on [CADLAB.io](https://cadlab.io/project/23395).
