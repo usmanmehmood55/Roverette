@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name drv8874)(type Legacy)(uri ${KIPRJMOD}/Roverette_Symbols/drv8874.lib)(options "")(descr ""))
+  (lib (name tps56628)(type Legacy)(uri ${KIPRJMOD}/Roverette_Symbols/tps56628.lib)(options "")(descr ""))
+)

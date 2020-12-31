@@ -1,0 +1,114 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5600 4150 5550 4150
+Wire Wire Line
+	5550 4150 5550 4200
+Wire Wire Line
+	5550 3900 5550 3950
+Wire Wire Line
+	5550 3950 5600 3950
+Wire Wire Line
+	6250 3900 6250 3950
+Wire Wire Line
+	6250 3950 6200 3950
+Wire Wire Line
+	6250 4150 6250 4200
+Wire Wire Line
+	6250 4150 6200 4150
+Wire Wire Line
+	6300 4150 6250 4150
+Connection ~ 6250 4150
+$Comp
+L Sensor_Proximity:CNY70 U?
+U 1 1 5FEE7D3D
+P 5900 4050
+F 0 "U?" H 5900 4367 50  0000 C CNN
+F 1 "CNY70" H 5900 4276 50  0000 C CNN
+F 2 "OptoDevice:Vishay_CNY70" H 5900 3850 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/83751/cny70.pdf" H 5900 4150 50  0001 C CNN
+	1    5900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5FEE87CE
+P 5550 4300
+F 0 "R?" H 5618 4346 50  0000 L CNN
+F 1 "80" H 5618 4255 50  0000 L CNN
+F 2 "" H 5550 4300 50  0001 C CNN
+F 3 "~" H 5550 4300 50  0001 C CNN
+	1    5550 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FEE941E
+P 5550 4400
+F 0 "#PWR?" H 5550 4150 50  0001 C CNN
+F 1 "GND" H 5555 4227 50  0000 C CNN
+F 2 "" H 5550 4400 50  0001 C CNN
+F 3 "" H 5550 4400 50  0001 C CNN
+	1    5550 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FEFD560
+P 5550 3900
+F 0 "#PWR?" H 5550 3750 50  0001 C CNN
+F 1 "+3.3V" H 5565 4073 50  0000 C CNN
+F 2 "" H 5550 3900 50  0001 C CNN
+F 3 "" H 5550 3900 50  0001 C CNN
+	1    5550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FEFD561
+P 6250 3900
+F 0 "#PWR?" H 6250 3750 50  0001 C CNN
+F 1 "+3.3V" H 6265 4073 50  0000 C CNN
+F 2 "" H 6250 3900 50  0001 C CNN
+F 3 "" H 6250 3900 50  0001 C CNN
+	1    6250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5FEFD562
+P 6250 4300
+F 0 "R?" H 6318 4346 50  0000 L CNN
+F 1 "1k" H 6318 4255 50  0000 L CNN
+F 2 "" H 6250 4300 50  0001 C CNN
+F 3 "~" H 6250 4300 50  0001 C CNN
+	1    6250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FEFD563
+P 6250 4400
+F 0 "#PWR?" H 6250 4150 50  0001 C CNN
+F 1 "GND" H 6255 4227 50  0000 C CNN
+F 2 "" H 6250 4400 50  0001 C CNN
+F 3 "" H 6250 4400 50  0001 C CNN
+	1    6250 4400
+	1    0    0    -1  
+$EndComp
+Text HLabel 6300 4150 2    50   Output ~ 0
+IR
+$EndSCHEMATC
