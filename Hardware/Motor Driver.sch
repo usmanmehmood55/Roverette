@@ -14547,7 +14547,7 @@ F 3 "~" H 5850 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Driver_Motor:DRV8874 U?
+L drv8874:DRV8874 U?
 U 1 1 5FF172F1
 P 5850 3050
 AR Path="/5FF172F1" Ref="U?"  Part="1" 

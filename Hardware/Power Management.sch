@@ -214,7 +214,7 @@ Tant
 Text Notes 4650 3800 0    50   ~ 0
 Tant
 $Comp
-L Power_Management:TPS56628 U?
+L tps56628:TPS56628 U?
 U 1 1 5FF1A031
 P 5600 3300
 AR Path="/5FF1A031" Ref="U?"  Part="1" 
@@ -562,7 +562,7 @@ Tant
 Text Notes 4650 5200 0    50   ~ 0
 Tant
 $Comp
-L Power_Management:TPS56628 U?
+L tps56628:TPS56628 U?
 U 1 1 5FF438C6
 P 5600 4700
 AR Path="/5FF438C6" Ref="U?"  Part="1" 
