@@ -1018,15 +1018,15 @@ NoConn ~ 4050 3100
 NoConn ~ 4050 3400
 NoConn ~ 4050 3500
 NoConn ~ 4050 3600
-Text GLabel 6200 2050 0    50   Input ~ 0
+Text GLabel 6300 2000 0    50   Input ~ 0
 PWM
-Text GLabel 6200 2150 0    50   Input ~ 0
+Text GLabel 6300 2100 0    50   Input ~ 0
 PH
-Text GLabel 6200 2250 0    50   Input ~ 0
+Text GLabel 6300 2200 0    50   Input ~ 0
 SLEEP
-Text GLabel 6200 2550 0    50   Output ~ 0
+Text GLabel 6300 2500 0    50   Output ~ 0
 FAULT
-Text GLabel 6200 2650 0    50   Output ~ 0
+Text GLabel 6300 2600 0    50   Output ~ 0
 iPROPI
 $Bitmap
 Pos 9400 3150
@@ -3308,32 +3308,32 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x03 J?
 U 1 1 5FF13025
-P 5100 1650
-F 0 "J?" H 5180 1737 50  0000 L CNN
-F 1 "HDR" H 5180 1646 50  0000 L CNN
-F 2 "" H 5100 1650 50  0001 C CNN
-F 3 "~" H 5100 1650 50  0001 C CNN
-F 4 "UART" H 5180 1555 50  0000 L CNN "Field4"
-	1    5100 1650
+P 4900 2250
+F 0 "J?" H 4980 2337 50  0000 L CNN
+F 1 "HDR" H 4980 2246 50  0000 L CNN
+F 2 "" H 4900 2250 50  0001 C CNN
+F 3 "~" H 4900 2250 50  0001 C CNN
+F 4 "UART" H 4980 2155 50  0000 L CNN "Field4"
+	1    4900 2250
 	1    0    0    -1  
 $EndComp
 Text GLabel 4050 1800 2    50   Output ~ 0
 RX
 Text GLabel 4050 1600 2    50   Input ~ 0
 TX
-Text GLabel 4900 1650 0    50   Input ~ 0
+Text GLabel 4700 2250 0    50   Input ~ 0
 RX
-Text GLabel 4900 1550 0    50   Output ~ 0
+Text GLabel 4700 2150 0    50   Output ~ 0
 TX
 $Comp
 L power:GND #PWR?
 U 1 1 5FF3D9B5
-P 4900 1750
-F 0 "#PWR?" H 4900 1500 50  0001 C CNN
-F 1 "GND" V 4905 1622 50  0000 R CNN
-F 2 "" H 4900 1750 50  0001 C CNN
-F 3 "" H 4900 1750 50  0001 C CNN
-	1    4900 1750
+P 4700 2350
+F 0 "#PWR?" H 4700 2100 50  0001 C CNN
+F 1 "GND" V 4705 2222 50  0000 R CNN
+F 2 "" H 4700 2350 50  0001 C CNN
+F 3 "" H 4700 2350 50  0001 C CNN
+	1    4700 2350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -3350,4 +3350,14 @@ F 4 "DMM" H 1700 6604 50  0000 C CNN "Field4"
 $EndComp
 Wire Wire Line
 	1500 7000 2050 7000
+Wire Notes Line
+	1100 4650 1100 1000
+Wire Notes Line
+	1100 1000 5450 1000
+Wire Notes Line
+	5450 1000 5450 4650
+Wire Notes Line
+	1100 4650 5450 4650
+Text Notes 4200 4600 0    50   ~ 0
+To be replaced by ESP32 Cam
 $EndSCHEMATC
