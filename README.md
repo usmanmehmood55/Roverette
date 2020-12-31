@@ -1,7 +1,7 @@
 # Roverette
 A small robot or "rover" with some sensors, and WiFi.
 
-![Root Sheet](https://github.com/usmanmehmood55/Roverette/blob/main/Root%20Sheet.PNG)
+![Root Sheet](https://github.com/usmanmehmood55/Roverette/blob/main/Hardware/Root%20Sheet.PNG)
 
 Components included:
 - [ESP32-CAM](https://lcsc.com/product-detail/Modules_Ai-Thinker-ESP32-CAM_C277946.html) 
