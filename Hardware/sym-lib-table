@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name Roverette-rescue)(type Legacy)(uri ${KIPRJMOD}/Roverette-rescue.lib)(options "")(descr ""))
 )

@@ -1,2 +1,2 @@
 # Hardware
-This folder will contain the KiCAD Project, Schematics & Layout and Project Libraries.
+This folder contains the KiCAD Project, Schematics & Layout and Project Libraries.
