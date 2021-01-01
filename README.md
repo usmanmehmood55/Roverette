@@ -15,7 +15,7 @@ Components I'm working on:
 - [TCND5000](https://www.vishay.com/docs/83795/tcnd5000.pdf)
 - [CNY70](https://www.vishay.com/docs/83751/cny70.pdf)
 
-# To Do
+## To Do
 - Decide on sensors
 - Calculate motor requirements
 - Update power supply and use a better PMIC if available

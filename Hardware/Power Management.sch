@@ -709,4 +709,30 @@ Text Label 6050 5100 0    50   ~ 0
 SNS9
 Wire Wire Line
 	4150 4800 4100 4800
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FF08244
+P 7650 3350
+F 0 "TP?" H 7708 3422 50  0000 L CNN
+F 1 "TestPoint" H 7708 3377 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7850 3350 50  0001 C CNN
+F 3 "~" H 7850 3350 50  0001 C CNN
+	1    7650 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3350 7650 3400
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FF0F95D
+P 7650 4750
+F 0 "TP?" H 7708 4822 50  0000 L CNN
+F 1 "TestPoint" H 7708 4777 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7850 4750 50  0001 C CNN
+F 3 "~" H 7850 4750 50  0001 C CNN
+	1    7650 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4750 7650 4800
 $EndSCHEMATC
