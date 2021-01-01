@@ -27,12 +27,12 @@ F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 575
 	1    5750 3850
 	1    0    0    -1  
 $EndComp
-Text HLabel 5050 3550 0    50   BiDi ~ 0
+Text HLabel 5150 3550 0    50   BiDi ~ 0
 SDA
-Text HLabel 5050 3650 0    50   Input ~ 0
+Text HLabel 5150 3650 0    50   Input ~ 0
 SCL
-Text HLabel 6450 3550 2    50   Output ~ 0
+Text HLabel 6350 3550 2    50   Output ~ 0
 INT
-Text HLabel 5050 4050 0    50   BiDi ~ 0
+Text HLabel 5150 4050 0    50   BiDi ~ 0
 FSYNC
 $EndSCHEMATC
