@@ -218,17 +218,6 @@ F 3 "" H 6100 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+9V #PWR02
-U 1 1 5FF30D7D
-P 6100 2750
-F 0 "#PWR02" H 6100 2600 50  0001 C CNN
-F 1 "+9V" V 6115 2878 50  0000 L CNN
-F 2 "" H 6100 2750 50  0001 C CNN
-F 3 "" H 6100 2750 50  0001 C CNN
-	1    6100 2750
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:Jumper TP1
 U 1 1 5FF3E3D0
 P 3550 2650
@@ -297,4 +286,15 @@ Text Label 7300 4450 0    20   ~ 0
 MR+
 Text Label 7300 5050 0    20   ~ 0
 MR-
+$Comp
+L power:Vdrive #PWR0101
+U 1 1 5FF4E8AF
+P 6100 2750
+F 0 "#PWR0101" H 5900 2600 50  0001 C CNN
+F 1 "Vdrive" V 6115 2878 50  0000 L CNN
+F 2 "" H 6100 2750 50  0001 C CNN
+F 3 "" H 6100 2750 50  0001 C CNN
+	1    6100 2750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

@@ -47,8 +47,8 @@ AR Path="/5EA2026E/5FEF1028" Ref="R?"  Part="1"
 AR Path="/5FEF1028" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF1028" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1028" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF1028" Ref="R28"  Part="1" 
-F 0 "R28" H 5168 4796 50  0000 L CNN
+AR Path="/5FF0711D/5FEF1028" Ref="R22"  Part="1" 
+F 0 "R22" H 5168 4796 50  0000 L CNN
 F 1 "10k" H 5168 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 5100 4750 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 5100 4750 50  0001 C CNN
@@ -63,8 +63,8 @@ AR Path="/5EA2026E/5FEF102E" Ref="R?"  Part="1"
 AR Path="/5FEF102E" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF102E" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF102E" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF102E" Ref="R27"  Part="1" 
-F 0 "R27" H 4918 4796 50  0000 L CNN
+AR Path="/5FF0711D/5FEF102E" Ref="R21"  Part="1" 
+F 0 "R21" H 4918 4796 50  0000 L CNN
 F 1 "10k" H 4918 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4850 4750 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 4850 4750 50  0001 C CNN
@@ -166,8 +166,8 @@ AR Path="/5EA2026E/5FEF105A" Ref="C?"  Part="1"
 AR Path="/5FEF105A" Ref="C?"  Part="1" 
 AR Path="/600FC875/5FEF105A" Ref="C?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF105A" Ref="C?"  Part="1" 
-AR Path="/5FF0711D/5FEF105A" Ref="C25"  Part="1" 
-F 0 "C25" H 6692 4796 50  0000 L CNN
+AR Path="/5FF0711D/5FEF105A" Ref="C15"  Part="1" 
+F 0 "C15" H 6692 4796 50  0000 L CNN
 F 1 "100nF" H 6692 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6600 4750 50  0001 C CNN
 F 3 "" H 6600 4750 50  0001 C CNN
@@ -182,8 +182,8 @@ AR Path="/5EA2026E/5FEF1060" Ref="C?"  Part="1"
 AR Path="/5FEF1060" Ref="C?"  Part="1" 
 AR Path="/600FC875/5FEF1060" Ref="C?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1060" Ref="C?"  Part="1" 
-AR Path="/5FF0711D/5FEF1060" Ref="C24"  Part="1" 
-F 0 "C24" H 6292 4796 50  0000 L CNN
+AR Path="/5FF0711D/5FEF1060" Ref="C14"  Part="1" 
+F 0 "C14" H 6292 4796 50  0000 L CNN
 F 1 "100nF" H 6292 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6200 4750 50  0001 C CNN
 F 3 "" H 6200 4750 50  0001 C CNN
@@ -198,8 +198,8 @@ AR Path="/5EA2026E/5FEF1066" Ref="R?"  Part="1"
 AR Path="/5FEF1066" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF1066" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1066" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF1066" Ref="R25"  Part="1" 
-F 0 "R25" H 6818 4146 50  0000 L CNN
+AR Path="/5FF0711D/5FEF1066" Ref="R19"  Part="1" 
+F 0 "R19" H 6818 4146 50  0000 L CNN
 F 1 "10k" H 6818 4055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 6750 4100 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 6750 4100 50  0001 C CNN
@@ -214,8 +214,8 @@ AR Path="/5EA2026E/5FEF106C" Ref="R?"  Part="1"
 AR Path="/5FEF106C" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF106C" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF106C" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF106C" Ref="R26"  Part="1" 
-F 0 "R26" H 6818 4446 50  0000 L CNN
+AR Path="/5FF0711D/5FEF106C" Ref="R20"  Part="1" 
+F 0 "R20" H 6818 4446 50  0000 L CNN
 F 1 "10k" H 6818 4355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 6750 4400 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 6750 4400 50  0001 C CNN
@@ -273,8 +273,8 @@ AR Path="/5EA2026E/5FEF1085" Ref="C?"  Part="1"
 AR Path="/5FEF1085" Ref="C?"  Part="1" 
 AR Path="/600FC875/5FEF1085" Ref="C?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1085" Ref="C?"  Part="1" 
-AR Path="/5FF0711D/5FEF1085" Ref="C22"  Part="1" 
-F 0 "C22" H 6342 3546 50  0000 L CNN
+AR Path="/5FF0711D/5FEF1085" Ref="C12"  Part="1" 
+F 0 "C12" H 6342 3546 50  0000 L CNN
 F 1 "47nF" H 6342 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6250 3500 50  0001 C CNN
 F 3 "" H 6250 3500 50  0001 C CNN
@@ -296,8 +296,8 @@ P 6400 3350
 AR Path="/5FEF1090" Ref="L?"  Part="1" 
 AR Path="/600FC875/5FEF1090" Ref="L?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1090" Ref="L?"  Part="1" 
-AR Path="/5FF0711D/5FEF1090" Ref="L3"  Part="1" 
-F 0 "L3" V 6585 3350 50  0000 C CNN
+AR Path="/5FF0711D/5FEF1090" Ref="L1"  Part="1" 
+F 0 "L1" V 6585 3350 50  0000 C CNN
 F 1 "1uH" V 6494 3350 50  0000 C CNN
 F 2 "Inductor_SMD:L_1210_3225Metric" H 6400 3350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1810201252_TDK-NLCV32T-1R0M-PF_C250182.pdf" H 6400 3350 50  0001 C CNN
@@ -316,8 +316,8 @@ AR Path="/5EA2026E/5FEF1098" Ref="C?"  Part="1"
 AR Path="/5FEF1098" Ref="C?"  Part="1" 
 AR Path="/600FC875/5FEF1098" Ref="C?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1098" Ref="C?"  Part="1" 
-AR Path="/5FF0711D/5FEF1098" Ref="C23"  Part="1" 
-F 0 "C23" H 6842 3546 50  0000 L CNN
+AR Path="/5FF0711D/5FEF1098" Ref="C13"  Part="1" 
+F 0 "C13" H 6842 3546 50  0000 L CNN
 F 1 "10uF" H 6842 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6750 3500 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C49678.html/?href=jlc-SMT" H 6750 3500 50  0001 C CNN
@@ -402,8 +402,8 @@ AR Path="/5EA2026E/5FEF10BE" Ref="R?"  Part="1"
 AR Path="/5FEF10BE" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF10BE" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF10BE" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF10BE" Ref="R24"  Part="1" 
-F 0 "R24" H 5018 3396 50  0000 L CNN
+AR Path="/5FF0711D/5FEF10BE" Ref="R18"  Part="1" 
+F 0 "R18" H 5018 3396 50  0000 L CNN
 F 1 "4.7k" H 5018 3305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4950 3350 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 4950 3350 50  0001 C CNN
@@ -434,8 +434,8 @@ P 4950 3550
 AR Path="/5FEF10CB" Ref="D?"  Part="1" 
 AR Path="/600FC875/5FEF10CB" Ref="D?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF10CB" Ref="D?"  Part="1" 
-AR Path="/5FF0711D/5FEF10CB" Ref="D6"  Part="1" 
-F 0 "D6" V 4996 3480 50  0000 R CNN
+AR Path="/5FF0711D/5FEF10CB" Ref="D2"  Part="1" 
+F 0 "D2" V 4996 3480 50  0000 R CNN
 F 1 "RED" V 4905 3480 50  0000 R CNN
 F 2 "LED_SMD:LED_0402_1005Metric" V 4950 3550 50  0001 C CNN
 F 3 "~" V 4950 3550 50  0001 C CNN
@@ -452,8 +452,8 @@ AR Path="/5EA2026E/5FEF10D2" Ref="R?"  Part="1"
 AR Path="/5FEF10D2" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF10D2" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF10D2" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF10D2" Ref="R23"  Part="1" 
-F 0 "R23" H 4618 3396 50  0000 L CNN
+AR Path="/5FF0711D/5FEF10D2" Ref="R17"  Part="1" 
+F 0 "R17" H 4618 3396 50  0000 L CNN
 F 1 "4.7k" H 4618 3305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4550 3350 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 4550 3350 50  0001 C CNN
@@ -482,8 +482,8 @@ P 4550 3550
 AR Path="/5FEF10DE" Ref="D?"  Part="1" 
 AR Path="/600FC875/5FEF10DE" Ref="D?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF10DE" Ref="D?"  Part="1" 
-AR Path="/5FF0711D/5FEF10DE" Ref="D5"  Part="1" 
-F 0 "D5" V 4596 3480 50  0000 R CNN
+AR Path="/5FF0711D/5FEF10DE" Ref="D1"  Part="1" 
+F 0 "D1" V 4596 3480 50  0000 R CNN
 F 1 "GREEN" V 4505 3480 50  0000 R CNN
 F 2 "LED_SMD:LED_0402_1005Metric" V 4550 3550 50  0001 C CNN
 F 3 "~" V 4550 3550 50  0001 C CNN
@@ -501,10 +501,10 @@ iChg
 Text Label 5100 4650 0    50   ~ 0
 iLim
 $Comp
-L bq25616:BQ25616 U9
+L bq25616:BQ25616 U7
 U 1 1 5FEF3DC6
 P 5700 3950
-F 0 "U9" H 6050 4850 50  0000 C CNN
+F 0 "U7" H 6050 4850 50  0000 C CNN
 F 1 "BQ25616" H 6050 4750 50  0000 C CNN
 F 2 "Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" H 6050 4850 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/bq25616.pdf" H 6050 4850 50  0001 C CNN
