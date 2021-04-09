@@ -150,8 +150,8 @@ U 1 1 5FF09C1A
 P 3950 3450
 AR Path="/5EA2026E/5FF09C1A" Ref="R?"  Part="1" 
 AR Path="/5FF09C1A" Ref="R?"  Part="1" 
-AR Path="/5FEFFC20/5FF09C1A" Ref="R13"  Part="1" 
-F 0 "R13" H 4018 3496 50  0000 L CNN
+AR Path="/5FEFFC20/5FF09C1A" Ref="R15"  Part="1" 
+F 0 "R15" H 4018 3496 50  0000 L CNN
 F 1 "10k" H 4018 3405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 3950 3450 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 3950 3450 50  0001 C CNN
@@ -204,10 +204,10 @@ F 3 "" H 6000 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R16
+L Device:R_Small_US R18
 U 1 1 5FF09C39
 P 8600 4650
-F 0 "R16" H 8668 4696 50  0000 L CNN
+F 0 "R18" H 8668 4696 50  0000 L CNN
 F 1 "4.7k" H 8668 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 8600 4650 50  0001 C CNN
 F 3 "~" H 8600 4650 50  0001 C CNN
@@ -215,20 +215,16 @@ F 3 "~" H 8600 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R15
+L Device:R_Small_US R17
 U 1 1 5FF09C3F
 P 8250 4650
-F 0 "R15" H 8318 4696 50  0000 L CNN
+F 0 "R17" H 8318 4696 50  0000 L CNN
 F 1 "4.7k" H 8318 4605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 8250 4650 50  0001 C CNN
 F 3 "~" H 8250 4650 50  0001 C CNN
 	1    8250 4650
 	1    0    0    -1  
 $EndComp
-Text GLabel 8600 4750 3    50   UnSpc ~ 0
-SDA
-Text GLabel 8250 4750 3    50   UnSpc ~ 0
-SCL
 $Comp
 L power:+3.3V #PWR041
 U 1 1 5FF09C47
@@ -303,8 +299,8 @@ U 1 1 5FF09C7E
 P 3950 4450
 AR Path="/5EA2026E/5FF09C7E" Ref="R?"  Part="1" 
 AR Path="/5FF09C7E" Ref="R?"  Part="1" 
-AR Path="/5FEFFC20/5FF09C7E" Ref="R14"  Part="1" 
-F 0 "R14" H 4018 4496 50  0000 L CNN
+AR Path="/5FEFFC20/5FF09C7E" Ref="R16"  Part="1" 
+F 0 "R16" H 4018 4496 50  0000 L CNN
 F 1 "10k" H 4018 4405 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 3950 4450 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 3950 4450 50  0001 C CNN
@@ -386,14 +382,18 @@ NoConn ~ 6600 4700
 NoConn ~ 6600 4800
 NoConn ~ 6600 4900
 $Comp
-L RF_Module:ESP32-CAM U?
-U 1 1 60081D63
-P 6000 3600
-F 0 "U?" H 5672 3671 50  0000 R CNN
-F 1 "ESP32-CAM" H 5672 3580 50  0000 R CNN
-F 2 "" H 6000 5050 50  0001 C CNN
-F 3 "" H 6000 5050 50  0001 C CNN
-	1    6000 3600
+L RF_Module:ESP32-WROOM-32D U5
+U 1 1 607032D0
+P 6000 3800
+F 0 "U5" H 6500 5300 50  0000 C CNN
+F 1 "ESP32-WROOM-32D" H 6500 5200 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 6000 2300 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 5700 3850 50  0001 C CNN
+	1    6000 3800
 	1    0    0    -1  
 $EndComp
+Text HLabel 8250 4750 3    50   UnSpc ~ 0
+SCL
+Text HLabel 8600 4750 3    50   UnSpc ~ 0
+SDA
 $EndSCHEMATC

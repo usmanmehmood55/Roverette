@@ -47,8 +47,8 @@ AR Path="/5EA2026E/5FEF1028" Ref="R?"  Part="1"
 AR Path="/5FEF1028" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF1028" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1028" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF1028" Ref="R22"  Part="1" 
-F 0 "R22" H 5168 4796 50  0000 L CNN
+AR Path="/5FF0711D/5FEF1028" Ref="R24"  Part="1" 
+F 0 "R24" H 5168 4796 50  0000 L CNN
 F 1 "10k" H 5168 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 5100 4750 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 5100 4750 50  0001 C CNN
@@ -63,8 +63,8 @@ AR Path="/5EA2026E/5FEF102E" Ref="R?"  Part="1"
 AR Path="/5FEF102E" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF102E" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF102E" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF102E" Ref="R21"  Part="1" 
-F 0 "R21" H 4918 4796 50  0000 L CNN
+AR Path="/5FF0711D/5FEF102E" Ref="R23"  Part="1" 
+F 0 "R23" H 4918 4796 50  0000 L CNN
 F 1 "10k" H 4918 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4850 4750 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 4850 4750 50  0001 C CNN
@@ -198,8 +198,8 @@ AR Path="/5EA2026E/5FEF1066" Ref="R?"  Part="1"
 AR Path="/5FEF1066" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF1066" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1066" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF1066" Ref="R19"  Part="1" 
-F 0 "R19" H 6818 4146 50  0000 L CNN
+AR Path="/5FF0711D/5FEF1066" Ref="R21"  Part="1" 
+F 0 "R21" H 6818 4146 50  0000 L CNN
 F 1 "10k" H 6818 4055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 6750 4100 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 6750 4100 50  0001 C CNN
@@ -214,8 +214,8 @@ AR Path="/5EA2026E/5FEF106C" Ref="R?"  Part="1"
 AR Path="/5FEF106C" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF106C" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF106C" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF106C" Ref="R20"  Part="1" 
-F 0 "R20" H 6818 4446 50  0000 L CNN
+AR Path="/5FF0711D/5FEF106C" Ref="R22"  Part="1" 
+F 0 "R22" H 6818 4446 50  0000 L CNN
 F 1 "10k" H 6818 4355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 6750 4400 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 6750 4400 50  0001 C CNN
@@ -402,8 +402,8 @@ AR Path="/5EA2026E/5FEF10BE" Ref="R?"  Part="1"
 AR Path="/5FEF10BE" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF10BE" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF10BE" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF10BE" Ref="R18"  Part="1" 
-F 0 "R18" H 5018 3396 50  0000 L CNN
+AR Path="/5FF0711D/5FEF10BE" Ref="R20"  Part="1" 
+F 0 "R20" H 5018 3396 50  0000 L CNN
 F 1 "4.7k" H 5018 3305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4950 3350 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 4950 3350 50  0001 C CNN
@@ -452,8 +452,8 @@ AR Path="/5EA2026E/5FEF10D2" Ref="R?"  Part="1"
 AR Path="/5FEF10D2" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF10D2" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF10D2" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF10D2" Ref="R17"  Part="1" 
-F 0 "R17" H 4618 3396 50  0000 L CNN
+AR Path="/5FF0711D/5FEF10D2" Ref="R19"  Part="1" 
+F 0 "R19" H 4618 3396 50  0000 L CNN
 F 1 "4.7k" H 4618 3305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 4550 3350 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 4550 3350 50  0001 C CNN
@@ -2909,4 +2909,15 @@ Wire Wire Line
 	5100 4400 5250 4400
 Wire Wire Line
 	4850 4300 5250 4300
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J?
+U 1 1 60721A3E
+P 2750 4100
+F 0 "J?" H 2857 4967 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 2857 4876 50  0000 C CNN
+F 2 "" H 2900 4100 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2900 4100 50  0001 C CNN
+	1    2750 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
