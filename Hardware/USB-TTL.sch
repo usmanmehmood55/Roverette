@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
+Sheet 11 12
 Title "USB Comms"
 Date "2019-01-26"
 Rev "1.3"
@@ -311,9 +311,9 @@ Wire Wire Line
 	5850 4250 5800 4250
 Wire Wire Line
 	5850 4300 6450 4300
-Text HLabel 5000 3750 0    50   Input ~ 0
+Text HLabel 5000 3750 0    50   BiDi ~ 0
 D+
-Text HLabel 5000 3850 0    50   Input ~ 0
+Text HLabel 5000 3850 0    50   BiDi ~ 0
 D-
 Text HLabel 5800 3550 2    50   Input ~ 0
 RX
