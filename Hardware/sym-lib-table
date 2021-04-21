@@ -2,4 +2,5 @@
   (lib (name drv8874)(type Legacy)(uri ${KIPRJMOD}/Roverette_Symbols/drv8874.lib)(options "")(descr ""))
   (lib (name tps56628)(type Legacy)(uri ${KIPRJMOD}/Roverette_Symbols/tps56628.lib)(options "")(descr ""))
   (lib (name bq25616)(type Legacy)(uri ${KIPRJMOD}/Roverette_Symbols/bq25616.lib)(options "")(descr ""))
+  (lib (name ESDA6V8AV5)(type Legacy)(uri ${KIPRJMOD}/ESDA6V8AV5.lib)(options "")(descr ""))
 )

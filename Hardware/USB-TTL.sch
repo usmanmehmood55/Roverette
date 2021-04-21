@@ -1,0 +1,322 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 11
+Title "USB Comms"
+Date "2019-01-26"
+Rev "1.3"
+Comp "Air University Islamabad"
+Comment1 "BEMTS-6B"
+Comment2 "Usman Mehmood"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_USB:CH340G U11
+U 1 1 5C49ED4D
+P 5400 3850
+F 0 "U11" H 5439 4559 50  0000 L CNN
+F 1 "CH340G" H 5439 4480 50  0000 L CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5450 3300 50  0001 L CNN
+F 3 "http://www.datasheet5.com/pdf-local-2195953" H 5050 4650 50  0001 C CNN
+	1    5400 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3100 5400 3200
+$Comp
+L power:GND #PWR077
+U 1 1 5C4AE9B0
+P 5400 4450
+F 0 "#PWR077" H 5400 4200 50  0001 C CNN
+F 1 "GND" H 5405 4277 50  0000 C CNN
+F 2 "" H 5400 4450 50  0001 C CNN
+F 3 "" H 5400 4450 50  0001 C CNN
+	1    5400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C27
+U 1 1 5C4E63C1
+P 4500 3200
+F 0 "C27" H 4592 3246 50  0000 L CNN
+F 1 "100nF" H 4592 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4500 3200 50  0001 C CNN
+F 3 "~" H 4500 3200 50  0001 C CNN
+	1    4500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR075
+U 1 1 5C4F66CE
+P 4500 3300
+F 0 "#PWR075" H 4500 3050 50  0001 C CNN
+F 1 "GND" H 4505 3127 50  0000 C CNN
+F 2 "" H 4500 3300 50  0001 C CNN
+F 3 "" H 4500 3300 50  0001 C CNN
+	1    4500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C28
+U 1 1 5C4F6836
+P 5150 3200
+F 0 "C28" V 4921 3200 50  0000 C CNN
+F 1 "10nF" V 5012 3200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5150 3200 50  0001 C CNN
+F 3 "~" H 5150 3200 50  0001 C CNN
+	1    5150 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR073
+U 1 1 5C4F68F9
+P 5000 3250
+F 0 "#PWR073" H 5000 3000 50  0001 C CNN
+F 1 "GND" H 5005 3077 50  0000 C CNN
+F 2 "" H 5000 3250 50  0001 C CNN
+F 3 "" H 5000 3250 50  0001 C CNN
+	1    5000 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3200 5000 3200
+Wire Wire Line
+	5000 3200 5000 3250
+Wire Wire Line
+	5250 3200 5300 3200
+Wire Wire Line
+	5300 3200 5300 3250
+NoConn ~ 5000 3550
+NoConn ~ 5800 4050
+NoConn ~ 5800 3950
+NoConn ~ 5800 3850
+NoConn ~ 5800 3750
+$Comp
+L power:+3.3V #PWR072
+U 1 1 5C8F955A
+P 5400 3100
+F 0 "#PWR072" H 5400 2950 50  0001 C CNN
+F 1 "+3.3V" H 5415 3273 50  0000 C CNN
+F 2 "" H 5400 3100 50  0001 C CNN
+F 3 "" H 5400 3100 50  0001 C CNN
+	1    5400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR071
+U 1 1 5C8F9686
+P 4500 3100
+F 0 "#PWR071" H 4500 2950 50  0001 C CNN
+F 1 "+3.3V" H 4515 3273 50  0000 C CNN
+F 2 "" H 4500 3100 50  0001 C CNN
+F 3 "" H 4500 3100 50  0001 C CNN
+	1    4500 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3200 5300 3200
+Connection ~ 5400 3200
+Wire Wire Line
+	5400 3200 5400 3250
+Connection ~ 5300 3200
+$Comp
+L Transistor_FET:BSS138 Q1
+U 1 1 5C9137B2
+P 6650 3850
+F 0 "Q1" H 6855 3896 50  0000 L CNN
+F 1 "BSS138" H 6855 3805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6850 3775 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 6650 3850 50  0001 L CNN
+	1    6650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q2
+U 1 1 5C98AA01
+P 6650 4300
+F 0 "Q2" H 6855 4346 50  0000 L CNN
+F 1 "BSS138" H 6855 4255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6850 4225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 6650 4300 50  0001 L CNN
+	1    6650 4300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6400 4100 6750 4100
+Wire Wire Line
+	6450 3850 6400 3850
+Wire Wire Line
+	6450 4300 6450 4050
+Wire Wire Line
+	6450 4050 6750 4050
+Connection ~ 6450 4300
+Text HLabel 6750 4500 3    50   Output ~ 0
+IO0
+Text HLabel 6750 3650 1    50   Output ~ 0
+EN
+$Comp
+L power:GND #PWR076
+U 1 1 5C908D2A
+P 4550 4250
+F 0 "#PWR076" H 4550 4000 50  0001 C CNN
+F 1 "GND" H 4555 4077 50  0001 C CNN
+F 2 "" H 4550 4250 50  0001 C CNN
+F 3 "" H 4550 4250 50  0001 C CNN
+	1    4550 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5C575BDD
+P 4550 4450
+F 0 "Y1" H 4800 4800 50  0000 C CNN
+F 1 "12MHz" H 4800 4700 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 4550 4450 50  0001 C CNN
+F 3 "~" H 4550 4450 50  0001 C CNN
+	1    4550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR080
+U 1 1 5C67ADA4
+P 4750 4700
+F 0 "#PWR080" H 4750 4450 50  0001 C CNN
+F 1 "GND" H 4755 4527 50  0000 C CNN
+F 2 "" H 4750 4700 50  0001 C CNN
+F 3 "" H 4750 4700 50  0001 C CNN
+	1    4750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR079
+U 1 1 5C67AD2C
+P 4350 4700
+F 0 "#PWR079" H 4350 4450 50  0001 C CNN
+F 1 "GND" H 4355 4527 50  0000 C CNN
+F 2 "" H 4350 4700 50  0001 C CNN
+F 3 "" H 4350 4700 50  0001 C CNN
+	1    4350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C30
+U 1 1 5C5B35D8
+P 4750 4600
+F 0 "C30" H 4842 4646 50  0000 L CNN
+F 1 "22pF" H 4842 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4750 4600 50  0001 C CNN
+F 3 "~" H 4750 4600 50  0001 C CNN
+	1    4750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C29
+U 1 1 5C5B3556
+P 4350 4600
+F 0 "C29" H 4100 4600 50  0000 L CNN
+F 1 "22pF" H 4100 4500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4350 4600 50  0001 C CNN
+F 3 "~" H 4350 4600 50  0001 C CNN
+	1    4350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR070
+U 1 1 5C8F971C
+P 4050 3100
+F 0 "#PWR070" H 4050 2950 50  0001 C CNN
+F 1 "+3.3V" H 4065 3273 50  0000 C CNN
+F 2 "" H 4050 3100 50  0001 C CNN
+F 3 "" H 4050 3100 50  0001 C CNN
+	1    4050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR074
+U 1 1 5C4F665E
+P 4050 3300
+F 0 "#PWR074" H 4050 3050 50  0001 C CNN
+F 1 "GND" H 4055 3127 50  0000 C CNN
+F 2 "" H 4050 3300 50  0001 C CNN
+F 3 "" H 4050 3300 50  0001 C CNN
+	1    4050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5DF9E1BC
+P 4050 3200
+AR Path="/5DDC70BE/5DF9E1BC" Ref="C?"  Part="1" 
+AR Path="/5E10B1D0/5DF9E1BC" Ref="C?"  Part="1" 
+AR Path="/607FE1AA/5DF9E1BC" Ref="C26"  Part="1" 
+F 0 "C26" H 4138 3246 50  0000 L CNN
+F 1 "4.7uF" H 4138 3155 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H" H 4050 3200 50  0001 C CNN
+F 3 "~" H 4050 3200 50  0001 C CNN
+	1    4050 3200
+	1    0    0    -1  
+$EndComp
+Text Label 4750 4450 0    50   ~ 0
+O1
+Text Label 4350 4450 2    50   ~ 0
+O2
+$Comp
+L power:GND #PWR078
+U 1 1 608078C5
+P 4550 4650
+F 0 "#PWR078" H 4550 4400 50  0001 C CNN
+F 1 "GND" H 4555 4477 50  0001 C CNN
+F 2 "" H 4550 4650 50  0001 C CNN
+F 3 "" H 4550 4650 50  0001 C CNN
+	1    4550 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4450 4350 4450
+Wire Wire Line
+	4350 4450 4350 4500
+Wire Wire Line
+	4700 4450 4750 4450
+Wire Wire Line
+	4750 4450 4750 4500
+Wire Wire Line
+	4750 4450 4750 4250
+Wire Wire Line
+	4750 4250 5000 4250
+Connection ~ 4750 4450
+Wire Wire Line
+	5000 4050 4350 4050
+Wire Wire Line
+	4350 4050 4350 4450
+Connection ~ 4350 4450
+Text Label 6350 4300 2    50   ~ 0
+RTS
+Wire Wire Line
+	6400 3850 6400 4100
+Text Label 6350 4100 2    50   ~ 0
+DTR
+Connection ~ 6400 4100
+Wire Wire Line
+	5850 4100 5850 4150
+Wire Wire Line
+	5850 4150 5800 4150
+Wire Wire Line
+	5850 4100 6400 4100
+Wire Wire Line
+	5850 4300 5850 4250
+Wire Wire Line
+	5850 4250 5800 4250
+Wire Wire Line
+	5850 4300 6450 4300
+Text HLabel 5000 3750 0    50   Input ~ 0
+D+
+Text HLabel 5000 3850 0    50   Input ~ 0
+D-
+Text HLabel 5800 3550 2    50   Input ~ 0
+RX
+Text HLabel 5800 3450 2    50   Output ~ 0
+TX
+$EndSCHEMATC
