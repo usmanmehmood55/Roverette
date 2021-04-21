@@ -11,6 +11,7 @@ Components included:
 
 ## To Do
 - Complete IMU schematic
+- Power path circuit for giving power to ESP32 via USB if connected
 - Figure out what the motor placement should be
 - PCB outline and component placement
 
