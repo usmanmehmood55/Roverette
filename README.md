@@ -15,3 +15,4 @@ Components included:
 - PCB outline and component placement
 
 View this project on [CADLAB.io](https://cadlab.io/project/23693), and on [GitHub](https://github.com/usmanmehmood55/Roverette).
+Actually no, CADLAB isn't syncing right now. I'll fix that when I get the time. 
