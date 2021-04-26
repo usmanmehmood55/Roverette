@@ -368,21 +368,6 @@ $EndComp
 Wire Wire Line
 	6750 3300 6750 3350
 Connection ~ 6750 3350
-$Comp
-L power:VBUS #PWR?
-U 1 1 5FEF10B2
-P 5700 3050
-AR Path="/5FEF10B2" Ref="#PWR?"  Part="1" 
-AR Path="/600FC875/5FEF10B2" Ref="#PWR?"  Part="1" 
-AR Path="/5FF0711D/5FEEEAE7/5FEF10B2" Ref="#PWR?"  Part="1" 
-AR Path="/5FF0711D/5FEF10B2" Ref="#PWR051"  Part="1" 
-F 0 "#PWR051" H 5700 2900 50  0001 C CNN
-F 1 "VBUS" H 5715 3223 50  0000 C CNN
-F 2 "" H 5700 3050 50  0001 C CNN
-F 3 "" H 5700 3050 50  0001 C CNN
-	1    5700 3050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5700 3050 5700 3100
 Wire Wire Line
@@ -2909,4 +2894,6 @@ Wire Wire Line
 	5100 4400 5250 4400
 Wire Wire Line
 	4850 4300 5250 4300
+Text HLabel 5700 3050 1    50   Input ~ 0
+VBUS
 $EndSCHEMATC
