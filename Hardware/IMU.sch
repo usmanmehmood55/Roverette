@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Sensor_Motion:MPU-9250 U?
+L Roverette-rescue:MPU-9250-Sensor_Motion U?
 U 1 1 5FF03C33
 P 5750 3850
 AR Path="/5FF03C33" Ref="U?"  Part="1" 
@@ -43,7 +43,7 @@ NoConn ~ 6350 4050
 NoConn ~ 6350 4150
 NoConn ~ 6350 4250
 $Comp
-L power:+3.3V #PWR049
+L Roverette-rescue:+3.3V-power #PWR049
 U 1 1 6070917E
 P 5750 2950
 F 0 "#PWR049" H 5750 2800 50  0001 C CNN
@@ -65,7 +65,7 @@ Wire Wire Line
 	5850 3000 5850 3050
 Connection ~ 5750 3000
 $Comp
-L power:GND #PWR050
+L Roverette-rescue:GND-power #PWR050
 U 1 1 60709BC2
 P 5750 4650
 F 0 "#PWR050" H 5750 4400 50  0001 C CNN

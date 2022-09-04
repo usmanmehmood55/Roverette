@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 12
+Sheet 7 11
 Title ""
 Date ""
 Rev ""
@@ -24,14 +24,14 @@ NoConn ~ 5250 3900
 NoConn ~ 5250 4000
 NoConn ~ 5250 4200
 $Comp
-L power:GND #PWR?
+L Roverette-rescue:GND-power #PWR?
 U 1 1 5FEF1021
 P 5250 4100
 AR Path="/5FEF1021" Ref="#PWR?"  Part="1" 
 AR Path="/600FC875/5FEF1021" Ref="#PWR?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1021" Ref="#PWR?"  Part="1" 
-AR Path="/5FF0711D/5FEF1021" Ref="#PWR057"  Part="1" 
-F 0 "#PWR057" H 5250 3850 50  0001 C CNN
+AR Path="/5FF0711D/5FEF1021" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 5250 3850 50  0001 C CNN
 F 1 "GND" V 5255 3972 50  0000 R CNN
 F 2 "" H 5250 4100 50  0001 C CNN
 F 3 "" H 5250 4100 50  0001 C CNN
@@ -40,15 +40,15 @@ F 3 "" H 5250 4100 50  0001 C CNN
 $EndComp
 NoConn ~ 5250 4500
 $Comp
-L Device:R_Small_US R?
+L Roverette-rescue:R_Small_US-Device R?
 U 1 1 5FEF1028
 P 5100 4750
 AR Path="/5EA2026E/5FEF1028" Ref="R?"  Part="1" 
 AR Path="/5FEF1028" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF1028" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1028" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF1028" Ref="R28"  Part="1" 
-F 0 "R28" H 5168 4796 50  0000 L CNN
+AR Path="/5FF0711D/5FEF1028" Ref="R26"  Part="1" 
+F 0 "R26" H 5168 4796 50  0000 L CNN
 F 1 "10k" H 5168 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5100 4750 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 5100 4750 50  0001 C CNN
@@ -56,15 +56,15 @@ F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Roverette-rescue:R_Small_US-Device R?
 U 1 1 5FEF102E
 P 4850 4750
 AR Path="/5EA2026E/5FEF102E" Ref="R?"  Part="1" 
 AR Path="/5FEF102E" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF102E" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF102E" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF102E" Ref="R27"  Part="1" 
-F 0 "R27" H 4918 4796 50  0000 L CNN
+AR Path="/5FF0711D/5FEF102E" Ref="R24"  Part="1" 
+F 0 "R24" H 4918 4796 50  0000 L CNN
 F 1 "10k" H 4918 4705 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 4850 4750 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 4850 4750 50  0001 C CNN
@@ -72,14 +72,14 @@ F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Roverette-rescue:GND-power #PWR?
 U 1 1 5FEF1034
 P 5700 4850
 AR Path="/5FEF1034" Ref="#PWR?"  Part="1" 
 AR Path="/600FC875/5FEF1034" Ref="#PWR?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1034" Ref="#PWR?"  Part="1" 
-AR Path="/5FF0711D/5FEF1034" Ref="#PWR061"  Part="1" 
-F 0 "#PWR061" H 5700 4600 50  0001 C CNN
+AR Path="/5FF0711D/5FEF1034" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 5700 4600 50  0001 C CNN
 F 1 "GND" H 5705 4677 50  0000 C CNN
 F 2 "" H 5700 4850 50  0001 C CNN
 F 3 "" H 5700 4850 50  0001 C CNN
@@ -87,14 +87,14 @@ F 3 "" H 5700 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Roverette-rescue:GND-power #PWR?
 U 1 1 5FEF103A
 P 5100 4850
 AR Path="/5FEF103A" Ref="#PWR?"  Part="1" 
 AR Path="/600FC875/5FEF103A" Ref="#PWR?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF103A" Ref="#PWR?"  Part="1" 
-AR Path="/5FF0711D/5FEF103A" Ref="#PWR060"  Part="1" 
-F 0 "#PWR060" H 5100 4600 50  0001 C CNN
+AR Path="/5FF0711D/5FEF103A" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 5100 4600 50  0001 C CNN
 F 1 "GND" H 5105 4677 50  0000 C CNN
 F 2 "" H 5100 4850 50  0001 C CNN
 F 3 "" H 5100 4850 50  0001 C CNN
@@ -102,14 +102,14 @@ F 3 "" H 5100 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Roverette-rescue:GND-power #PWR?
 U 1 1 5FEF1040
 P 4850 4850
 AR Path="/5FEF1040" Ref="#PWR?"  Part="1" 
 AR Path="/600FC875/5FEF1040" Ref="#PWR?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1040" Ref="#PWR?"  Part="1" 
-AR Path="/5FF0711D/5FEF1040" Ref="#PWR059"  Part="1" 
-F 0 "#PWR059" H 4850 4600 50  0001 C CNN
+AR Path="/5FF0711D/5FEF1040" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 4850 4600 50  0001 C CNN
 F 1 "GND" H 4855 4677 50  0000 C CNN
 F 2 "" H 4850 4850 50  0001 C CNN
 F 3 "" H 4850 4850 50  0001 C CNN
@@ -125,14 +125,14 @@ Wire Wire Line
 Wire Wire Line
 	6600 4500 6600 4650
 $Comp
-L power:GND #PWR?
+L Roverette-rescue:GND-power #PWR?
 U 1 1 5FEF104A
 P 6200 4850
 AR Path="/5FEF104A" Ref="#PWR?"  Part="1" 
 AR Path="/600FC875/5FEF104A" Ref="#PWR?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF104A" Ref="#PWR?"  Part="1" 
-AR Path="/5FF0711D/5FEF104A" Ref="#PWR062"  Part="1" 
-F 0 "#PWR062" H 6200 4600 50  0001 C CNN
+AR Path="/5FF0711D/5FEF104A" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 6200 4600 50  0001 C CNN
 F 1 "GND" H 6205 4677 50  0000 C CNN
 F 2 "" H 6200 4850 50  0001 C CNN
 F 3 "" H 6200 4850 50  0001 C CNN
@@ -140,14 +140,14 @@ F 3 "" H 6200 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Roverette-rescue:GND-power #PWR?
 U 1 1 5FEF1050
 P 6600 4850
 AR Path="/5FEF1050" Ref="#PWR?"  Part="1" 
 AR Path="/600FC875/5FEF1050" Ref="#PWR?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1050" Ref="#PWR?"  Part="1" 
-AR Path="/5FF0711D/5FEF1050" Ref="#PWR063"  Part="1" 
-F 0 "#PWR063" H 6600 4600 50  0001 C CNN
+AR Path="/5FF0711D/5FEF1050" Ref="#PWR054"  Part="1" 
+F 0 "#PWR054" H 6600 4600 50  0001 C CNN
 F 1 "GND" H 6605 4677 50  0000 C CNN
 F 2 "" H 6600 4850 50  0001 C CNN
 F 3 "" H 6600 4850 50  0001 C CNN
@@ -159,15 +159,15 @@ Wire Wire Line
 Wire Wire Line
 	4850 4300 4850 4650
 $Comp
-L Device:C_Small C?
+L Roverette-rescue:C_Small-Device C?
 U 1 1 5FEF105A
 P 6600 4750
 AR Path="/5EA2026E/5FEF105A" Ref="C?"  Part="1" 
 AR Path="/5FEF105A" Ref="C?"  Part="1" 
 AR Path="/600FC875/5FEF105A" Ref="C?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF105A" Ref="C?"  Part="1" 
-AR Path="/5FF0711D/5FEF105A" Ref="C15"  Part="1" 
-F 0 "C15" H 6692 4796 50  0000 L CNN
+AR Path="/5FF0711D/5FEF105A" Ref="C14"  Part="1" 
+F 0 "C14" H 6692 4796 50  0000 L CNN
 F 1 "100nF" H 6692 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6600 4750 50  0001 C CNN
 F 3 "" H 6600 4750 50  0001 C CNN
@@ -175,15 +175,15 @@ F 3 "" H 6600 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Roverette-rescue:C_Small-Device C?
 U 1 1 5FEF1060
 P 6200 4750
 AR Path="/5EA2026E/5FEF1060" Ref="C?"  Part="1" 
 AR Path="/5FEF1060" Ref="C?"  Part="1" 
 AR Path="/600FC875/5FEF1060" Ref="C?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1060" Ref="C?"  Part="1" 
-AR Path="/5FF0711D/5FEF1060" Ref="C14"  Part="1" 
-F 0 "C14" H 6292 4796 50  0000 L CNN
+AR Path="/5FF0711D/5FEF1060" Ref="C12"  Part="1" 
+F 0 "C12" H 6292 4796 50  0000 L CNN
 F 1 "100nF" H 6292 4705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6200 4750 50  0001 C CNN
 F 3 "" H 6200 4750 50  0001 C CNN
@@ -191,15 +191,15 @@ F 3 "" H 6200 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Roverette-rescue:R_Small_US-Device R?
 U 1 1 5FEF1066
 P 6750 4100
 AR Path="/5EA2026E/5FEF1066" Ref="R?"  Part="1" 
 AR Path="/5FEF1066" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF1066" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1066" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF1066" Ref="R25"  Part="1" 
-F 0 "R25" H 6818 4146 50  0000 L CNN
+AR Path="/5FF0711D/5FEF1066" Ref="R27"  Part="1" 
+F 0 "R27" H 6818 4146 50  0000 L CNN
 F 1 "10k" H 6818 4055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 6750 4100 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 6750 4100 50  0001 C CNN
@@ -207,15 +207,15 @@ F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Roverette-rescue:R_Small_US-Device R?
 U 1 1 5FEF106C
 P 6750 4400
 AR Path="/5EA2026E/5FEF106C" Ref="R?"  Part="1" 
 AR Path="/5FEF106C" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF106C" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF106C" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF106C" Ref="R26"  Part="1" 
-F 0 "R26" H 6818 4446 50  0000 L CNN
+AR Path="/5FF0711D/5FEF106C" Ref="R28"  Part="1" 
+F 0 "R28" H 6818 4446 50  0000 L CNN
 F 1 "10k" H 6818 4355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 6750 4400 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 6750 4400 50  0001 C CNN
@@ -223,7 +223,7 @@ F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Roverette-rescue:TestPoint-Connector TP?
 U 1 1 5FEF1072
 P 6850 4250
 AR Path="/5FEF1072" Ref="TP?"  Part="1" 
@@ -242,14 +242,14 @@ REGN
 Text Label 6750 4000 0    50   ~ 0
 REGN
 $Comp
-L power:GND #PWR?
+L Roverette-rescue:GND-power #PWR?
 U 1 1 5FEF107A
 P 6750 4500
 AR Path="/5FEF107A" Ref="#PWR?"  Part="1" 
 AR Path="/600FC875/5FEF107A" Ref="#PWR?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF107A" Ref="#PWR?"  Part="1" 
-AR Path="/5FF0711D/5FEF107A" Ref="#PWR058"  Part="1" 
-F 0 "#PWR058" H 6750 4250 50  0001 C CNN
+AR Path="/5FF0711D/5FEF107A" Ref="#PWR057"  Part="1" 
+F 0 "#PWR057" H 6750 4250 50  0001 C CNN
 F 1 "GND" H 6755 4327 50  0001 C CNN
 F 2 "" H 6750 4500 50  0001 C CNN
 F 3 "" H 6750 4500 50  0001 C CNN
@@ -266,15 +266,15 @@ Wire Wire Line
 Wire Wire Line
 	6750 4250 6750 4300
 $Comp
-L Device:C_Small C?
+L Roverette-rescue:C_Small-Device C?
 U 1 1 5FEF1085
 P 6250 3500
 AR Path="/5EA2026E/5FEF1085" Ref="C?"  Part="1" 
 AR Path="/5FEF1085" Ref="C?"  Part="1" 
 AR Path="/600FC875/5FEF1085" Ref="C?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1085" Ref="C?"  Part="1" 
-AR Path="/5FF0711D/5FEF1085" Ref="C12"  Part="1" 
-F 0 "C12" H 6342 3546 50  0000 L CNN
+AR Path="/5FF0711D/5FEF1085" Ref="C13"  Part="1" 
+F 0 "C13" H 6342 3546 50  0000 L CNN
 F 1 "47nF" H 6342 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6250 3500 50  0001 C CNN
 F 3 "" H 6250 3500 50  0001 C CNN
@@ -290,7 +290,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 3650 6150 3650
 $Comp
-L Device:L_Small L?
+L Roverette-rescue:L_Small-Device L?
 U 1 1 5FEF1090
 P 6400 3350
 AR Path="/5FEF1090" Ref="L?"  Part="1" 
@@ -309,15 +309,15 @@ Wire Wire Line
 	6300 3350 6250 3350
 Connection ~ 6250 3350
 $Comp
-L Device:C_Small C?
+L Roverette-rescue:C_Small-Device C?
 U 1 1 5FEF1098
 P 6750 3500
 AR Path="/5EA2026E/5FEF1098" Ref="C?"  Part="1" 
 AR Path="/5FEF1098" Ref="C?"  Part="1" 
 AR Path="/600FC875/5FEF1098" Ref="C?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF1098" Ref="C?"  Part="1" 
-AR Path="/5FF0711D/5FEF1098" Ref="C13"  Part="1" 
-F 0 "C13" H 6842 3546 50  0000 L CNN
+AR Path="/5FF0711D/5FEF1098" Ref="C15"  Part="1" 
+F 0 "C15" H 6842 3546 50  0000 L CNN
 F 1 "10uF" H 6842 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6750 3500 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C49678.html/?href=jlc-SMT" H 6750 3500 50  0001 C CNN
@@ -336,7 +336,7 @@ Wire Wire Line
 	6600 3350 6750 3350
 Connection ~ 6600 3350
 $Comp
-L power:GND #PWR?
+L Roverette-rescue:GND-power #PWR?
 U 1 1 5FEF10A4
 P 6750 3600
 AR Path="/5FEF10A4" Ref="#PWR?"  Part="1" 
@@ -351,14 +351,14 @@ F 3 "" H 6750 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L Roverette-rescue:+5V-power #PWR?
 U 1 1 5FEF10AA
 P 6750 3300
 AR Path="/5FEF10AA" Ref="#PWR?"  Part="1" 
 AR Path="/600FC875/5FEF10AA" Ref="#PWR?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF10AA" Ref="#PWR?"  Part="1" 
-AR Path="/5FF0711D/5FEF10AA" Ref="#PWR054"  Part="1" 
-F 0 "#PWR054" H 6750 3150 50  0001 C CNN
+AR Path="/5FF0711D/5FEF10AA" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 6750 3150 50  0001 C CNN
 F 1 "+5V" H 6765 3473 50  0000 C CNN
 F 2 "" H 6750 3300 50  0001 C CNN
 F 3 "" H 6750 3300 50  0001 C CNN
@@ -380,15 +380,15 @@ Wire Wire Line
 	5800 3100 5800 3150
 Connection ~ 5700 3100
 $Comp
-L Device:R_Small_US R?
+L Roverette-rescue:R_Small_US-Device R?
 U 1 1 5FEF10BE
 P 4950 3350
 AR Path="/5EA2026E/5FEF10BE" Ref="R?"  Part="1" 
 AR Path="/5FEF10BE" Ref="R?"  Part="1" 
 AR Path="/600FC875/5FEF10BE" Ref="R?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF10BE" Ref="R?"  Part="1" 
-AR Path="/5FF0711D/5FEF10BE" Ref="R24"  Part="1" 
-F 0 "R24" H 5018 3396 50  0000 L CNN
+AR Path="/5FF0711D/5FEF10BE" Ref="R25"  Part="1" 
+F 0 "R25" H 5018 3396 50  0000 L CNN
 F 1 "4.7k" H 5018 3305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 4950 3350 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 4950 3350 50  0001 C CNN
@@ -398,14 +398,14 @@ $EndComp
 Wire Wire Line
 	4950 3700 4950 3650
 $Comp
-L power:+3.3V #PWR?
+L Roverette-rescue:+3.3V-power #PWR?
 U 1 1 5FEF10C5
 P 4950 3250
 AR Path="/5FEF10C5" Ref="#PWR?"  Part="1" 
 AR Path="/600FC875/5FEF10C5" Ref="#PWR?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF10C5" Ref="#PWR?"  Part="1" 
-AR Path="/5FF0711D/5FEF10C5" Ref="#PWR053"  Part="1" 
-F 0 "#PWR053" H 4950 3100 50  0001 C CNN
+AR Path="/5FF0711D/5FEF10C5" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 4950 3100 50  0001 C CNN
 F 1 "+3.3V" H 4965 3423 50  0000 C CNN
 F 2 "" H 4950 3250 50  0001 C CNN
 F 3 "" H 4950 3250 50  0001 C CNN
@@ -413,7 +413,7 @@ F 3 "" H 4950 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Small D?
+L Roverette-rescue:LED_Small-Device D?
 U 1 1 5FEF10CB
 P 4950 3550
 AR Path="/5FEF10CB" Ref="D?"  Part="1" 
@@ -430,7 +430,7 @@ $EndComp
 Wire Wire Line
 	4950 3700 5250 3700
 $Comp
-L Device:R_Small_US R?
+L Roverette-rescue:R_Small_US-Device R?
 U 1 1 5FEF10D2
 P 4550 3350
 AR Path="/5EA2026E/5FEF10D2" Ref="R?"  Part="1" 
@@ -446,14 +446,14 @@ F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L Roverette-rescue:+3.3V-power #PWR?
 U 1 1 5FEF10D8
 P 4550 3250
 AR Path="/5FEF10D8" Ref="#PWR?"  Part="1" 
 AR Path="/600FC875/5FEF10D8" Ref="#PWR?"  Part="1" 
 AR Path="/5FF0711D/5FEEEAE7/5FEF10D8" Ref="#PWR?"  Part="1" 
-AR Path="/5FF0711D/5FEF10D8" Ref="#PWR052"  Part="1" 
-F 0 "#PWR052" H 4550 3100 50  0001 C CNN
+AR Path="/5FF0711D/5FEF10D8" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 4550 3100 50  0001 C CNN
 F 1 "+3.3V" H 4565 3423 50  0000 C CNN
 F 2 "" H 4550 3250 50  0001 C CNN
 F 3 "" H 4550 3250 50  0001 C CNN
@@ -461,7 +461,7 @@ F 3 "" H 4550 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Small D?
+L Roverette-rescue:LED_Small-Device D?
 U 1 1 5FEF10DE
 P 4550 3550
 AR Path="/5FEF10DE" Ref="D?"  Part="1" 
@@ -486,10 +486,10 @@ iChg
 Text Label 5100 4650 0    50   ~ 0
 iLim
 $Comp
-L bq25616:BQ25616 U8
+L bq25616:BQ25616 U6
 U 1 1 5FEF3DC6
 P 5700 3950
-F 0 "U8" H 6050 4850 50  0000 C CNN
+F 0 "U6" H 6050 4850 50  0000 C CNN
 F 1 "BQ25616" H 6050 4750 50  0000 C CNN
 F 2 "Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias" H 6050 4850 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/bq25616.pdf" H 6050 4850 50  0001 C CNN

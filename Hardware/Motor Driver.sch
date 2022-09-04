@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 12
+Sheet 2 11
 Title ""
 Date ""
 Rev ""
@@ -14289,13 +14289,13 @@ D4 BF 8A 07 00 40 45 3D 79 45 49 29 CC E5 90 53 D1 94 FC 67 7B C4 30 E3 FE 77 75
 EndData
 $EndBitmap
 $Comp
-L power:GND #PWR?
+L Roverette-rescue:GND-power #PWR?
 U 1 1 5FF172EF
 P 5850 4500
 AR Path="/5FF172EF" Ref="#PWR?"  Part="1" 
-AR Path="/5FF00151/5FF172EF" Ref="#PWR018"  Part="1" 
-AR Path="/5FF2CF13/5FF172EF" Ref="#PWR029"  Part="1" 
-F 0 "#PWR029" H 5850 4250 50  0001 C CNN
+AR Path="/5FF00151/5FF172EF" Ref="#PWR011"  Part="1" 
+AR Path="/5FF2CF13/5FF172EF" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 5850 4250 50  0001 C CNN
 F 1 "GND" H 5855 4327 50  0000 C CNN
 F 2 "" H 5850 4500 50  0001 C CNN
 F 3 "" H 5850 4500 50  0001 C CNN
@@ -14303,14 +14303,14 @@ F 3 "" H 5850 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Roverette-rescue:C_Small-Device C?
 U 1 1 5FF2BF81
 P 6450 3350
 AR Path="/5EA2026E/5FF2BF81" Ref="C?"  Part="1" 
 AR Path="/5FF2BF81" Ref="C?"  Part="1" 
-AR Path="/5FF00151/5FF2BF81" Ref="C4"  Part="1" 
-AR Path="/5FF2CF13/5FF2BF81" Ref="C8"  Part="1" 
-F 0 "C4" H 6542 3396 50  0000 L CNN
+AR Path="/5FF00151/5FF2BF81" Ref="C2"  Part="1" 
+AR Path="/5FF2CF13/5FF2BF81" Ref="C6"  Part="1" 
+F 0 "C6" H 6542 3396 50  0000 L CNN
 F 1 "22nF" H 6542 3305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6450 3350 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100nF-104-10-50V_C49678.html/?href=jlc-SMT" H 6450 3350 50  0001 C CNN
@@ -14318,13 +14318,13 @@ F 3 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L Roverette-rescue:+3.3V-power #PWR?
 U 1 1 5FF2D4A0
 P 4850 4400
 AR Path="/5FF2D4A0" Ref="#PWR?"  Part="1" 
-AR Path="/5FF00151/5FF2D4A0" Ref="#PWR017"  Part="1" 
-AR Path="/5FF2CF13/5FF2D4A0" Ref="#PWR028"  Part="1" 
-F 0 "#PWR028" H 4850 4250 50  0001 C CNN
+AR Path="/5FF00151/5FF2D4A0" Ref="#PWR06"  Part="1" 
+AR Path="/5FF2CF13/5FF2D4A0" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 4850 4250 50  0001 C CNN
 F 1 "+3.3V" H 4865 4573 50  0000 C CNN
 F 2 "" H 4850 4400 50  0001 C CNN
 F 3 "" H 4850 4400 50  0001 C CNN
@@ -14332,13 +14332,13 @@ F 3 "" H 4850 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Roverette-rescue:R_Small_US-Device R?
 U 1 1 5FF172DB
 P 5000 4450
 AR Path="/5FF172DB" Ref="R?"  Part="1" 
-AR Path="/5FF00151/5FF172DB" Ref="R7"  Part="1" 
-AR Path="/5FF2CF13/5FF172DB" Ref="R11"  Part="1" 
-F 0 "R7" V 5100 4450 50  0000 C CNN
+AR Path="/5FF00151/5FF172DB" Ref="R6"  Part="1" 
+AR Path="/5FF2CF13/5FF172DB" Ref="R10"  Part="1" 
+F 0 "R10" V 5100 4450 50  0000 C CNN
 F 1 "16k" V 4900 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5000 4450 50  0001 C CNN
 F 3 "~" H 5000 4450 50  0001 C CNN
@@ -14346,13 +14346,13 @@ F 3 "~" H 5000 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:Vdrive #PWR?
+L Roverette-rescue:Vdrive-power #PWR?
 U 1 1 5FF2D498
 P 7400 2750
 AR Path="/5FF2D498" Ref="#PWR?"  Part="1" 
-AR Path="/5FF00151/5FF2D498" Ref="#PWR09"  Part="1" 
-AR Path="/5FF2CF13/5FF2D498" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 7200 2600 50  0001 C CNN
+AR Path="/5FF00151/5FF2D498" Ref="#PWR015"  Part="1" 
+AR Path="/5FF2CF13/5FF2D498" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 7200 2600 50  0001 C CNN
 F 1 "Vdrive" H 7415 2923 50  0000 C CNN
 F 2 "" H 7400 2750 50  0001 C CNN
 F 3 "" H 7400 2750 50  0001 C CNN
@@ -14360,13 +14360,13 @@ F 3 "" H 7400 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Vdrive #PWR?
+L Roverette-rescue:Vdrive-power #PWR?
 U 1 1 5FF172EC
 P 7100 2750
 AR Path="/5FF172EC" Ref="#PWR?"  Part="1" 
-AR Path="/5FF00151/5FF172EC" Ref="#PWR08"  Part="1" 
-AR Path="/5FF2CF13/5FF172EC" Ref="#PWR019"  Part="1" 
-F 0 "#PWR019" H 6900 2600 50  0001 C CNN
+AR Path="/5FF00151/5FF172EC" Ref="#PWR013"  Part="1" 
+AR Path="/5FF2CF13/5FF172EC" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 6900 2600 50  0001 C CNN
 F 1 "Vdrive" H 7115 2923 50  0000 C CNN
 F 2 "" H 7100 2750 50  0001 C CNN
 F 3 "" H 7100 2750 50  0001 C CNN
@@ -14374,13 +14374,13 @@ F 3 "" H 7100 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Roverette-rescue:C_Small-Device C?
 U 1 1 5FF172D6
 P 7100 2850
 AR Path="/5FF172D6" Ref="C?"  Part="1" 
-AR Path="/5FF00151/5FF172D6" Ref="C1"  Part="1" 
-AR Path="/5FF2CF13/5FF172D6" Ref="C5"  Part="1" 
-F 0 "C1" H 7192 2896 50  0000 L CNN
+AR Path="/5FF00151/5FF172D6" Ref="C3"  Part="1" 
+AR Path="/5FF2CF13/5FF172D6" Ref="C7"  Part="1" 
+F 0 "C7" H 7192 2896 50  0000 L CNN
 F 1 "1uF" H 7192 2805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 7100 2850 50  0001 C CNN
 F 3 "~" H 7100 2850 50  0001 C CNN
@@ -14388,13 +14388,13 @@ F 3 "~" H 7100 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Roverette-rescue:GND-power #PWR?
 U 1 1 5FF2BF19
 P 7100 2950
 AR Path="/5FF2BF19" Ref="#PWR?"  Part="1" 
-AR Path="/5FF00151/5FF2BF19" Ref="#PWR011"  Part="1" 
-AR Path="/5FF2CF13/5FF2BF19" Ref="#PWR022"  Part="1" 
-F 0 "#PWR022" H 7100 2700 50  0001 C CNN
+AR Path="/5FF00151/5FF2BF19" Ref="#PWR014"  Part="1" 
+AR Path="/5FF2CF13/5FF2BF19" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 7100 2700 50  0001 C CNN
 F 1 "GND" H 7105 2777 50  0000 C CNN
 F 2 "" H 7100 2950 50  0001 C CNN
 F 3 "" H 7100 2950 50  0001 C CNN
@@ -14402,13 +14402,13 @@ F 3 "" H 7100 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Roverette-rescue:GND-power #PWR?
 U 1 1 5FF2D48C
 P 7400 2950
 AR Path="/5FF2D48C" Ref="#PWR?"  Part="1" 
-AR Path="/5FF00151/5FF2D48C" Ref="#PWR012"  Part="1" 
-AR Path="/5FF2CF13/5FF2D48C" Ref="#PWR023"  Part="1" 
-F 0 "#PWR023" H 7400 2700 50  0001 C CNN
+AR Path="/5FF00151/5FF2D48C" Ref="#PWR016"  Part="1" 
+AR Path="/5FF2CF13/5FF2D48C" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 7400 2700 50  0001 C CNN
 F 1 "GND" H 7405 2777 50  0000 C CNN
 F 2 "" H 7400 2950 50  0001 C CNN
 F 3 "" H 7400 2950 50  0001 C CNN
@@ -14422,13 +14422,13 @@ PWM
 Text HLabel 5300 3300 0    50   Input ~ 0
 PH
 $Comp
-L power:GND #PWR?
+L Roverette-rescue:GND-power #PWR?
 U 1 1 5FF2D49F
 P 5000 4050
 AR Path="/5FF2D49F" Ref="#PWR?"  Part="1" 
-AR Path="/5FF00151/5FF2D49F" Ref="#PWR016"  Part="1" 
-AR Path="/5FF2CF13/5FF2D49F" Ref="#PWR027"  Part="1" 
-F 0 "#PWR027" H 5000 3800 50  0001 C CNN
+AR Path="/5FF00151/5FF2D49F" Ref="#PWR08"  Part="1" 
+AR Path="/5FF2CF13/5FF2D49F" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 5000 3800 50  0001 C CNN
 F 1 "GND" V 5005 3922 50  0000 R CNN
 F 2 "" H 5000 4050 50  0001 C CNN
 F 3 "" H 5000 4050 50  0001 C CNN
@@ -14436,14 +14436,14 @@ F 3 "" H 5000 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Roverette-rescue:R_Small_US-Device R?
 U 1 1 5FF2D494
 P 4900 3600
 AR Path="/5EA2026E/5FF2D494" Ref="R?"  Part="1" 
 AR Path="/5FF2D494" Ref="R?"  Part="1" 
 AR Path="/5FF00151/5FF2D494" Ref="R5"  Part="1" 
 AR Path="/5FF2CF13/5FF2D494" Ref="R9"  Part="1" 
-F 0 "R5" H 4968 3646 50  0000 L CNN
+F 0 "R9" H 4968 3646 50  0000 L CNN
 F 1 "10k" H 4968 3555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 4900 3600 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Uniroyal-Elec-0805W8F1002T5E_C17414.html/?href=jlc-SMT" H 4900 3600 50  0001 C CNN
@@ -14455,13 +14455,13 @@ SLEEP
 Text HLabel 5200 3800 0    50   Output ~ 0
 FAULT
 $Comp
-L Device:C_Small C?
+L Roverette-rescue:C_Small-Device C?
 U 1 1 5FF2D490
 P 7400 2850
 AR Path="/5FF2D490" Ref="C?"  Part="1" 
-AR Path="/5FF00151/5FF2D490" Ref="C2"  Part="1" 
-AR Path="/5FF2CF13/5FF2D490" Ref="C6"  Part="1" 
-F 0 "C2" H 7492 2896 50  0000 L CNN
+AR Path="/5FF00151/5FF2D490" Ref="C4"  Part="1" 
+AR Path="/5FF2CF13/5FF2D490" Ref="C8"  Part="1" 
+F 0 "C8" H 7492 2896 50  0000 L CNN
 F 1 "10uF" H 7492 2805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_2220_5650Metric" H 7400 2850 50  0001 C CNN
 F 3 "~" H 7400 2850 50  0001 C CNN
@@ -14471,13 +14471,13 @@ $EndComp
 Text HLabel 5200 3900 0    50   Output ~ 0
 iPROPI
 $Comp
-L power:+3.3V #PWR?
+L Roverette-rescue:+3.3V-power #PWR?
 U 1 1 5FF172E1
 P 4900 3500
 AR Path="/5FF172E1" Ref="#PWR?"  Part="1" 
-AR Path="/5FF00151/5FF172E1" Ref="#PWR013"  Part="1" 
-AR Path="/5FF2CF13/5FF172E1" Ref="#PWR024"  Part="1" 
-F 0 "#PWR024" H 4900 3350 50  0001 C CNN
+AR Path="/5FF00151/5FF172E1" Ref="#PWR07"  Part="1" 
+AR Path="/5FF2CF13/5FF172E1" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 4900 3350 50  0001 C CNN
 F 1 "+3.3V" H 4915 3673 50  0000 C CNN
 F 2 "" H 4900 3500 50  0001 C CNN
 F 3 "" H 4900 3500 50  0001 C CNN
@@ -14487,13 +14487,13 @@ $EndComp
 Text HLabel 6400 3800 2    50   Output ~ 0
 M+
 $Comp
-L Device:R_Small_US R?
+L Roverette-rescue:R_Small_US-Device R?
 U 1 1 5FF2D49E
 P 5100 4050
 AR Path="/5FF2D49E" Ref="R?"  Part="1" 
-AR Path="/5FF00151/5FF2D49E" Ref="R6"  Part="1" 
-AR Path="/5FF2CF13/5FF2D49E" Ref="R10"  Part="1" 
-F 0 "R6" V 5050 3950 50  0000 C CNN
+AR Path="/5FF00151/5FF2D49E" Ref="R7"  Part="1" 
+AR Path="/5FF2CF13/5FF2D49E" Ref="R11"  Part="1" 
+F 0 "R11" V 5050 3950 50  0000 C CNN
 F 1 "5.5k" V 5050 4150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5100 4050 50  0001 C CNN
 F 3 "~" H 5100 4050 50  0001 C CNN
@@ -14501,13 +14501,13 @@ F 3 "~" H 5100 4050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Roverette-rescue:R_Small_US-Device R?
 U 1 1 5FF172DD
 P 5300 4450
 AR Path="/5FF172DD" Ref="R?"  Part="1" 
 AR Path="/5FF00151/5FF172DD" Ref="R8"  Part="1" 
 AR Path="/5FF2CF13/5FF172DD" Ref="R12"  Part="1" 
-F 0 "R8" V 5400 4450 50  0000 C CNN
+F 0 "R12" V 5400 4450 50  0000 C CNN
 F 1 "50k" V 5200 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5300 4450 50  0001 C CNN
 F 3 "~" H 5300 4450 50  0001 C CNN
@@ -14515,13 +14515,13 @@ F 3 "~" H 5300 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:Vdrive #PWR?
+L Roverette-rescue:Vdrive-power #PWR?
 U 1 1 5FF2D4A1
 P 6000 2850
 AR Path="/5FF2D4A1" Ref="#PWR?"  Part="1" 
-AR Path="/5FF00151/5FF2D4A1" Ref="#PWR010"  Part="1" 
-AR Path="/5FF2CF13/5FF2D4A1" Ref="#PWR021"  Part="1" 
-F 0 "#PWR021" H 5800 2700 50  0001 C CNN
+AR Path="/5FF00151/5FF2D4A1" Ref="#PWR012"  Part="1" 
+AR Path="/5FF2CF13/5FF2D4A1" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 5800 2700 50  0001 C CNN
 F 1 "Vdrive" H 6015 3023 50  0000 C CNN
 F 2 "" H 6000 2850 50  0001 C CNN
 F 3 "" H 6000 2850 50  0001 C CNN
@@ -14529,13 +14529,13 @@ F 3 "" H 6000 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Roverette-rescue:C_Small-Device C?
 U 1 1 5FF2D4A2
 P 5850 2900
 AR Path="/5FF2D4A2" Ref="C?"  Part="1" 
-AR Path="/5FF00151/5FF2D4A2" Ref="C3"  Part="1" 
-AR Path="/5FF2CF13/5FF2D4A2" Ref="C7"  Part="1" 
-F 0 "C3" V 5650 2800 50  0000 C CNN
+AR Path="/5FF00151/5FF2D4A2" Ref="C1"  Part="1" 
+AR Path="/5FF2CF13/5FF2D4A2" Ref="C5"  Part="1" 
+F 0 "C5" V 5650 2800 50  0000 C CNN
 F 1 "100nF" V 5750 2800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5850 2900 50  0001 C CNN
 F 3 "~" H 5850 2900 50  0001 C CNN
@@ -14547,8 +14547,8 @@ L drv8874:DRV8874 U?
 U 1 1 5FF172F1
 P 5850 3050
 AR Path="/5FF172F1" Ref="U?"  Part="1" 
-AR Path="/5FF00151/5FF172F1" Ref="U2"  Part="1" 
-AR Path="/5FF2CF13/5FF172F1" Ref="U3"  Part="1" 
+AR Path="/5FF00151/5FF172F1" Ref="U1"  Part="1" 
+AR Path="/5FF2CF13/5FF172F1" Ref="U2"  Part="1" 
 F 0 "U2" H 6250 3250 50  0000 C CNN
 F 1 "DRV8874" H 6250 3150 50  0000 C CNN
 F 2 "Package_SO:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3x3mm_ThermalVias" H 6200 3200 50  0001 C CNN
@@ -14557,12 +14557,12 @@ F 3 "" H 6200 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR014
+L Roverette-rescue:GND-power #PWR09
 U 1 1 5FF4A672
 P 5300 3500
-AR Path="/5FF00151/5FF4A672" Ref="#PWR014"  Part="1" 
-AR Path="/5FF2CF13/5FF4A672" Ref="#PWR025"  Part="1" 
-F 0 "#PWR025" H 5300 3250 50  0001 C CNN
+AR Path="/5FF00151/5FF4A672" Ref="#PWR09"  Part="1" 
+AR Path="/5FF2CF13/5FF4A672" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 5300 3250 50  0001 C CNN
 F 1 "GND" V 5305 3372 50  0000 R CNN
 F 2 "" H 5300 3500 50  0001 C CNN
 F 3 "" H 5300 3500 50  0001 C CNN
@@ -14570,12 +14570,12 @@ F 3 "" H 5300 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR015
+L Roverette-rescue:GND-power #PWR010
 U 1 1 5FF4ADD9
 P 5300 3600
-AR Path="/5FF00151/5FF4ADD9" Ref="#PWR015"  Part="1" 
-AR Path="/5FF2CF13/5FF4ADD9" Ref="#PWR026"  Part="1" 
-F 0 "#PWR026" H 5300 3350 50  0001 C CNN
+AR Path="/5FF00151/5FF4ADD9" Ref="#PWR010"  Part="1" 
+AR Path="/5FF2CF13/5FF4ADD9" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 5300 3350 50  0001 C CNN
 F 1 "GND" V 5305 3472 50  0000 R CNN
 F 2 "" H 5300 3600 50  0001 C CNN
 F 3 "" H 5300 3600 50  0001 C CNN

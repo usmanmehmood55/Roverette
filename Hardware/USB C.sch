@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 12
+Sheet 11 11
 Title ""
 Date ""
 Rev ""
@@ -19,7 +19,8 @@ U 1 1 6089570F
 P 6650 4200
 AR Path="/607FE1AA/6089570F" Ref="U?"  Part="1" 
 AR Path="/6089570F" Ref="U?"  Part="1" 
-F 0 "U?" H 7230 4121 50  0000 L CNN
+AR Path="/60893A6D/6089570F" Ref="U10"  Part="1" 
+F 0 "U10" H 7230 4121 50  0000 L CNN
 F 1 "ESDA6V8AV5" H 7230 4030 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-553" H 6650 4550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Will-Semicon-ESDA6V8AV5_C268741.pdf" H 6650 4550 50  0001 C CNN
@@ -28,12 +29,13 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Will-Semicon-ESDA6V8AV5_C268741.pdf" H 66
 $EndComp
 NoConn ~ 7100 4100
 $Comp
-L power:GND #PWR?
+L Roverette-rescue:GND-power #PWR?
 U 1 1 6089571A
 P 6900 4550
 AR Path="/607FE1AA/6089571A" Ref="#PWR?"  Part="1" 
 AR Path="/6089571A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6900 4300 50  0001 C CNN
+AR Path="/60893A6D/6089571A" Ref="#PWR074"  Part="1" 
+F 0 "#PWR074" H 6900 4300 50  0001 C CNN
 F 1 "GND" H 6905 4377 50  0000 C CNN
 F 2 "" H 6900 4550 50  0001 C CNN
 F 3 "" H 6900 4550 50  0001 C CNN
@@ -41,10 +43,10 @@ F 3 "" H 6900 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J?
+L Roverette-rescue:USB_C_Receptacle_USB2.0-Connector J2
 U 1 1 60895724
 P 5850 3850
-F 0 "J?" H 5957 4717 50  0000 C CNN
+F 0 "J2" H 5957 4717 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 5957 4626 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11" H 6000 3850 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 6000 3850 50  0001 C CNN
@@ -58,12 +60,13 @@ Wire Wire Line
 Wire Wire Line
 	5850 4800 5850 4750
 $Comp
-L power:GND #PWR?
+L Roverette-rescue:GND-power #PWR?
 U 1 1 6089572D
 P 5700 4850
 AR Path="/607FE1AA/6089572D" Ref="#PWR?"  Part="1" 
 AR Path="/6089572D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5700 4600 50  0001 C CNN
+AR Path="/60893A6D/6089572D" Ref="#PWR073"  Part="1" 
+F 0 "#PWR073" H 5700 4600 50  0001 C CNN
 F 1 "GND" H 5705 4677 50  0000 C CNN
 F 2 "" H 5700 4850 50  0001 C CNN
 F 3 "" H 5700 4850 50  0001 C CNN
@@ -110,4 +113,18 @@ Wire Wire Line
 	6800 3850 6800 4100
 Wire Wire Line
 	7000 3750 7000 4100
+$Comp
+L Roverette-rescue:PWR_FLAG-power #FLG0103
+U 1 1 6133D762
+P 7000 3200
+F 0 "#FLG0103" H 7000 3275 50  0001 C CNN
+F 1 "PWR_FLAG-power" H 7000 3373 50  0000 C CNN
+F 2 "" H 7000 3200 50  0001 C CNN
+F 3 "" H 7000 3200 50  0001 C CNN
+	1    7000 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3200 7000 3250
+Connection ~ 7000 3250
 $EndSCHEMATC
