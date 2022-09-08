@@ -319,7 +319,7 @@ P 6250 2500
 AR Path="/5FF0069C/6070D6A9" Ref="TP?"  Part="1" 
 AR Path="/6070D6A9" Ref="TP3"  Part="1" 
 F 0 "TP3" V 6250 2700 50  0000 L CNN
-F 1 "TestPoint" H 6308 2527 50  0001 L CNN
+F 1 "3v3" H 6308 2527 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 6450 2500 50  0001 C CNN
 F 3 "~" H 6450 2500 50  0001 C CNN
 	1    6250 2500
@@ -446,7 +446,7 @@ P 6250 1550
 AR Path="/5FF0069C/6082D663" Ref="TP?"  Part="1" 
 AR Path="/6082D663" Ref="TP2"  Part="1" 
 F 0 "TP2" V 6250 1750 50  0000 L CNN
-F 1 "TestPoint" H 6308 1577 50  0001 L CNN
+F 1 "vDrive" H 6308 1577 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 6450 1550 50  0001 C CNN
 F 3 "~" H 6450 1550 50  0001 C CNN
 	1    6250 1550
